@@ -1,0 +1,16 @@
+# Arquivos pessoais sensíveis
+fotos-pessoais/
+documentos-medicos/
+
+# Imagens (descomente a linha abaixo se não quiser versionar as fotos)
+# imagens/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo

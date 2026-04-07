@@ -1,0 +1,122 @@
+{
+  "paciente": {
+    "nome": "Leandro Silveira",
+    "dataNascimento": "04/04/1987",
+    "idade": 39
+  },
+  "tratamento": {
+    "dataInicio": "11/03/2026",
+    "dataCirurgia": "04/05/2026",
+    "medicamentos": [
+      {
+        "nome": "Dutasterida",
+        "dosagem": "0.5mg",
+        "frequencia": "1x ao dia",
+        "horario": "08:00",
+        "tipo": "Bloqueador 5-alfa-redutase"
+      },
+      {
+        "nome": "Minoxidil Oral",
+        "dosagem": "2.5mg",
+        "frequencia": "1x ao dia",
+        "horario": "08:00",
+        "tipo": "Vasodilatador"
+      }
+    ]
+  },
+  "cirurgia": {
+    "data": "04/05/2026",
+    "tecnica": "FUE",
+    "numeroEnxertos": null,
+    "areaDoadora": "Posterior e lateral",
+    "areaReceptora": "Frontal e topo",
+    "clinica": "",
+    "medico": ""
+  },
+  "timeline": [
+    {
+      "data": "06/03/2026",
+      "tipo": "consulta",
+      "titulo": "Primeira Consulta",
+      "descricao": "Consulta inicial com especialista",
+      "observacoes": "",
+      "fotos": []
+    },
+    {
+      "data": "11/03/2026",
+      "tipo": "inicio-tratamento",
+      "titulo": "Início do Tratamento",
+      "descricao": "Primeira dose de dutasterida e minoxidil oral",
+      "observacoes": "",
+      "fotos": [
+        "imagens/2026-03-11/frontal.jpg",
+        "imagens/2026-03-11/topo.jpg",
+        "imagens/2026-03-11/lateral-direita.jpg",
+        "imagens/2026-03-11/lateral-esquerda.jpg"
+      ]
+    },
+    {
+      "data": "04/05/2026",
+      "tipo": "cirurgia",
+      "titulo": "Cirurgia de Transplante",
+      "descricao": "Transplante capilar FUE",
+      "observacoes": "",
+      "fotos": []
+    }
+  ],
+  "galeria": {
+    "2026-03-06": {
+      "titulo": "Primeira Consulta",
+      "fotos": []
+    },
+    "2026-03-11": {
+      "titulo": "Início do Tratamento - Fotos Iniciais",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-03-11/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-03-11/topo.jpg",
+          "legenda": "Vista do topo"
+        },
+        {
+          "arquivo": "imagens/2026-03-11/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-03-11/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
+    },
+    "2026-04-11": {
+      "titulo": "1 Mês de Tratamento",
+      "fotos": []
+    },
+    "2026-05-04": {
+      "titulo": "Dia da Cirurgia",
+      "fotos": []
+    },
+    "2026-05-11": {
+      "titulo": "1 Semana Pós-Op",
+      "fotos": []
+    },
+    "2026-06-04": {
+      "titulo": "1 Mês Pós-Op",
+      "fotos": []
+    },
+    "2026-08-04": {
+      "titulo": "3 Meses Pós-Op",
+      "fotos": []
+    },
+    "2026-11-04": {
+      "titulo": "6 Meses Pós-Op",
+      "fotos": []
+    },
+    "2027-05-04": {
+      "titulo": "12 Meses Pós-Op - Resultado Final",
+      "fotos": []
+    }
+  }
+}
