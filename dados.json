@@ -11,14 +11,14 @@
       {
         "nome": "Dutasterida",
         "dosagem": "0.5mg",
-        "frequencia": "1x ao dia",
+        "frequencia": "1cp 3x/semana :  segunda, quarta e sexta feira",
         "horario": "08:00",
         "tipo": "Bloqueador 5-alfa-redutase"
       },
       {
         "nome": "Minoxidil Oral",
-        "dosagem": "2.5mg",
-        "frequencia": "1x ao dia",
+        "dosagem": "2mg",
+        "frequencia": "1 cp durante 30 dias. após tomar 2cp  ao dia",
         "horario": "08:00",
         "tipo": "Vasodilatador"
       }
@@ -31,7 +31,7 @@
     "areaDoadora": "Posterior e lateral",
     "areaReceptora": "Frontal e topo",
     "clinica": "",
-    "medico": ""
+    "medico": "Dra dayse pinheiro"
   },
   "timeline": [
     {
