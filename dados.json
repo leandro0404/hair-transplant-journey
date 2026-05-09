@@ -70,19 +70,19 @@
       "fotos": [
         {
           "arquivo": "imagens/2026-03-31/frontal.jpg",
-          "legenda": "Vista frontal"
-        },
-        {
-          "arquivo": "imagens/2026-03-31/topo.jpg",
           "legenda": "Vista do topo"
         },
         {
-          "arquivo": "imagens/2026-03-31/lateral-direita.jpg",
+          "arquivo": "imagens/2026-03-31/topo.jpg",
           "legenda": "Lateral direita"
         },
         {
+          "arquivo": "imagens/2026-03-31/lateral-direita.jpg",
+          "legenda": "Vista do topo"
+        },
+        {
           "arquivo": "imagens/2026-03-31/lateral-esquerda.jpg",
-          "legenda": "Lateral esquerda"
+          "legenda": "Vista do topo"
         }
       ]
     },
@@ -91,7 +91,7 @@
       "fotos": [
         {
           "arquivo": "imagens/2026-04-06/frontal.jpg",
-          "legenda": "Vista frontal"
+          "legenda": "Vista do topo"
         },
         {
           "arquivo": "imagens/2026-04-06/topo.jpg",
@@ -115,16 +115,16 @@
           "legenda": "Vista frontal"
         },
         {
-          "arquivo": "imagens/2026-05-04/topo.jpg",
-          "legenda": "Vista do topo"
-        },
-        {
           "arquivo": "imagens/2026-05-04/lateral-direita.jpg",
-          "legenda": "Lateral direita"
+          "legenda": "Vista frontal"
         },
         {
           "arquivo": "imagens/2026-05-04/lateral-esquerda.jpg",
-          "legenda": "Lateral esquerda"
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-05-04/topo.jpg",
+          "legenda": "Vista do topo"
         }
       ]
     },
@@ -132,16 +132,8 @@
       "titulo": "1 Dia Pós-Op",
       "fotos": [
         {
-          "arquivo": "imagens/2026-05-05/frontal.jpg",
-          "legenda": "Vista frontal"
-        },
-        {
           "arquivo": "imagens/2026-05-05/topo.jpg",
           "legenda": "Vista do topo"
-        },
-        {
-          "arquivo": "imagens/2026-05-05/lateral-direita.jpg",
-          "legenda": "Lateral direita"
         },
         {
           "arquivo": "imagens/2026-05-05/lateral-esquerda.jpg",
@@ -153,19 +145,7 @@
       "titulo": "4 Dias Pós-Op",
       "fotos": [
         {
-          "arquivo": "imagens/2026-05-08/frontal.jpg",
-          "legenda": "Vista frontal"
-        },
-        {
           "arquivo": "imagens/2026-05-08/topo.jpg",
-          "legenda": "Vista do topo"
-        },
-        {
-          "arquivo": "imagens/2026-05-08/lateral-direita.jpg",
-          "legenda": "Lateral direita"
-        },
-        {
-          "arquivo": "imagens/2026-05-08/lateral-esquerda.jpg",
           "legenda": "Lateral esquerda"
         }
       ]
@@ -175,19 +155,19 @@
       "fotos": [
         {
           "arquivo": "imagens/2026-05-09/frontal.jpg",
-          "legenda": "Vista frontal"
+          "legenda": "Lateral esquerda"
         },
         {
           "arquivo": "imagens/2026-05-09/topo.jpg",
-          "legenda": "Vista do topo"
+          "legenda": "Vista frontal"
         },
         {
           "arquivo": "imagens/2026-05-09/lateral-direita.jpg",
-          "legenda": "Lateral direita"
+          "legenda": "Vista do topo"
         },
         {
           "arquivo": "imagens/2026-05-09/lateral-esquerda.jpg",
-          "legenda": "Lateral esquerda"
+          "legenda": "Lateral direita"
         }
       ]
     }
