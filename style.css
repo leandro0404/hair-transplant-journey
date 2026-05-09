@@ -251,3 +251,52 @@ tr:hover {
     padding: 20px;
     text-align: center;
 }
+
+/* Modal para fotos expandidas */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#modal-caption {
+    text-align: center;
+    color: #ccc;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.galeria-item {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.galeria-item:hover {
+    transform: scale(1.05);
+}

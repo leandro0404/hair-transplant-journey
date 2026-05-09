@@ -30,7 +30,7 @@ async function carregarGaleria() {
                 
                 for (const foto of periodo.fotos) {
                     html += `
-                        <div class="galeria-item">
+                        <div class="galeria-item" onclick="abrirModal('${foto.arquivo}', '${foto.legenda}')">
                             <img src="${foto.arquivo}" alt="${foto.legenda}" loading="lazy">
                             <p class="foto-legenda">${foto.legenda}</p>
                         </div>
@@ -58,6 +58,22 @@ async function carregarGaleria() {
 function formatarData(dataStr) {
     const [ano, mes, dia] = dataStr.split('-');
     return `${dia}/${mes}/${ano}`;
+}
+
+// Abre modal com foto expandida
+function abrirModal(src, legenda) {
+    const modal = document.getElementById('modal-foto');
+    const img = document.getElementById('modal-img');
+    const caption = document.getElementById('modal-caption');
+    
+    img.src = src;
+    caption.textContent = legenda;
+    modal.style.display = 'flex';
+}
+
+// Fecha modal
+function fecharModal() {
+    document.getElementById('modal-foto').style.display = 'none';
 }
 
 document.addEventListener('DOMContentLoaded', carregarGaleria);

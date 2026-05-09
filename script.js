@@ -24,9 +24,18 @@ async function carregarDados() {
         const diasCirurgia = Math.floor((dataCirurgia - hoje) / (1000 * 60 * 60 * 24));
         
         document.getElementById('dias-tratamento').textContent = `${diasTratamento} dias`;
-        document.getElementById('dias-cirurgia').textContent = diasCirurgia > 0 
-            ? `${diasCirurgia} dias` 
-            : 'Cirurgia realizada';
+        
+        if (diasCirurgia > 0) {
+            document.getElementById('dias-cirurgia').textContent = `${diasCirurgia} dias`;
+        } else {
+            // Conta a partir do dia seguinte à cirurgia
+            const diasPosCirurgia = Math.abs(diasCirurgia) - 1;
+            if (diasPosCirurgia === 0) {
+                document.getElementById('dias-cirurgia').textContent = 'Cirurgia realizada hoje';
+            } else {
+                document.getElementById('dias-cirurgia').textContent = `${diasPosCirurgia} dias pós-cirurgia`;
+            }
+        }
         
     } catch (error) {
         console.error('Erro ao carregar dados:', error);
