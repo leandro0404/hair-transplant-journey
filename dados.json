@@ -170,6 +170,23 @@
           "legenda": "Lateral direita"
         }
       ]
+    },
+    "2026-05-10": {
+      "titulo": "6 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-05-10/topo.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-05-10/lateral-direita.jpg",
+          "legenda": "Vista do topo"
+        },
+        {
+          "arquivo": "imagens/2026-05-10/lateral-esquerda.jpg",
+          "legenda": "Lateral direita"
+        }
+      ]
     }
   }
 }
