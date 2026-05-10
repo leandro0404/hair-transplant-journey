@@ -176,15 +176,15 @@
       "fotos": [
         {
           "arquivo": "imagens/2026-05-10/topo.jpg",
-          "legenda": "Vista frontal"
+          "legenda": "Vista topo"
         },
         {
           "arquivo": "imagens/2026-05-10/lateral-direita.jpg",
-          "legenda": "Vista do topo"
+          "legenda": "Lateral direita"
         },
         {
           "arquivo": "imagens/2026-05-10/lateral-esquerda.jpg",
-          "legenda": "Lateral direita"
+          "legenda": "Lateral esquerda"
         }
       ]
     }
