@@ -187,6 +187,23 @@
           "legenda": "Lateral esquerda"
         }
       ]
+    },
+    "2026-05-11": {
+      "titulo": "7 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-05-11/tfrontal.jpg",
+          "legenda": "Vista topo"
+        },
+        {
+          "arquivo": "imagens/2026-05-11/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-05-11/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
     }
   }
 }
