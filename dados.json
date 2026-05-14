@@ -204,6 +204,40 @@
           "legenda": "Lateral esquerda"
         }
       ]
+    },
+    "2026-05-13": {
+      "titulo": "9 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-05-13/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-05-13/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-05-13/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
+    },
+    "2026-05-14": {
+      "titulo": "10 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-05-14/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-05-14/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-05-14/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
     }
   }
 }
