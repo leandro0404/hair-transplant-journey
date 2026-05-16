@@ -66,8 +66,36 @@
   ],
   "galeria": {
     "2026-03-31": {
-      "titulo": "Início do Tratamento - Fotos Iniciais",
+      "titulo": "Início do antes - Fotos Iniciais",
       "fotos": [
+        {
+          "arquivo": "imagens/2026-03-31/00.jpg",
+          "legenda": "Vista do topo"
+        },
+        {
+          "arquivo": "imagens/2026-03-31/01.jpg",
+          "legenda": "Vista do topo"
+        },
+        {
+          "arquivo": "imagens/2026-03-31/02.jpg",
+          "legenda": "Vista do topo"
+        },
+        {
+          "arquivo": "imagens/2026-03-31/03.jpg",
+          "legenda": "Vista do topo"
+        },
+        {
+          "arquivo": "imagens/2026-03-31/04.jpg",
+          "legenda": "Vista do topo"
+        },
+        {
+          "arquivo": "imagens/2026-03-31/05.jpg",
+          "legenda": "Vista lateral"
+        },
+        {
+          "arquivo": "imagens/2026-03-31/06.jpg",
+          "legenda": "Vista do topo"
+        },
         {
           "arquivo": "imagens/2026-03-31/frontal.jpg",
           "legenda": "Vista do topo"
@@ -87,7 +115,7 @@
       ]
     },
     "2026-04-06": {
-      "titulo": "1 Semana de Tratamento",
+      "titulo": "Tratamento",
       "fotos": [
         {
           "arquivo": "imagens/2026-04-06/frontal.jpg",
