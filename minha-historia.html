@@ -11,6 +11,9 @@
         <header class="center">
             <h1>📖 Minha História</h1>
             <p class="subtitle">A jornada completa do meu transplante capilar</p>
+            <div class="status" id="dias-pos-cirurgia" style="margin-top: 20px;">
+                <strong>📅 Dias desde a cirurgia:</strong> <span id="contador-dias">Calculando...</span>
+            </div>
         </header>
 
         <section>
@@ -97,12 +100,17 @@
                 <strong>Fundamentais:</strong> Cuidado com alimentação e repouso absoluto.
             </div>
 
-            <h3>7 Dias Depois (11/05/2026 - Hoje): O Despertar dos Nervos</h3>
-            <p>Terminei de tomar os remédios (antibiótico e anti-inflamatório), que imagino que atrapalhavam o sono.</p>
+            <h3>Primeira Semana: O Despertar dos Nervos</h3>
+            <p>No 7º dia terminei de tomar os remédios (antibiótico e anti-inflamatório), que imagino que atrapalhavam o sono.</p>
             
-            <p>Aconteceu algo fascinante no sexto dia - uma experiência que nunca tinha tido antes. No dia da cirurgia são feitas anestesias no couro cabeludo. Essas áreas ou nervos ficaram "desligados" por alguns dias, com quase nada de sensibilidade. Ontem começaram a "ligar" novamente, como se fossem interruptores religando as luzes de uma sala, um por um.</p>
+            <p>Aconteceu algo fascinante no sexto dia - uma experiência que nunca tinha tido antes. No dia da cirurgia são feitas anestesias no couro cabeludo. Essas áreas ou nervos ficaram "desligados" por alguns dias, com quase nada de sensibilidade. No sexto dia começaram a "ligar" novamente, como se fossem interruptores religando as luzes de uma sala, um por um.</p>
             
             <p>Essa sensação me deixou fascinado com a medicina. São experiências que só quem faz vai saber, entender e conhecer sobre o próprio corpo e suas respostas.</p>
+
+            <h3>Segunda Semana: Cicatrização e Evolução</h3>
+            <p>A partir do 7º dia, cada dia foi melhorando progressivamente. A cicatrização avançou bem, as casquinhas começaram a cair naturalmente, e o sono normalizou bastante. A ansiedade diminuiu significativamente.</p>
+            
+            <p>O processo de recuperação é gradual e cada dia traz pequenas melhorias. É importante ter paciência e seguir todas as orientações médicas.</p>
         </section>
 
         <section>
@@ -114,10 +122,10 @@
                 <p>Mesmo sendo de baixo risco, requer cuidado máximo. É algo para sua vida inteira - faça muito bem feito. Se não tem tempo ou não pode ficar de repouso adequado, <strong>espere e não faça</strong>. Não vale a pena arriscar.</p>
             </div>
 
-            <h3>Expectativas para o futuro:</h3>
-            <p>Estou no 7º dia e imagino que agora o sono e tudo vai melhorar. Minha ansiedade já está infinitamente melhor.</p>
+            <h3>Próximas Etapas:</h3>
+            <p>Retorno agendado para <strong>19/05/2026</strong> para a lavagem final e avaliação do resultado inicial.</p>
             
-            <p>Tenho retorno dia <strong>19/05</strong> para a lavagem final e avaliação do resultado. Depois vem a parte chata: os fios começam a cair (shock loss) e voltam após 3 meses. O ciclo completo de resultado é após 1 ano.</p>
+            <p>Após as primeiras semanas, vem a fase do shock loss: os fios transplantados começam a cair naturalmente e voltam a crescer após 3 meses. O ciclo completo de resultado é após 1 ano.</p>
             
             <p>Por mais chata que seja essa fase, é parte do processo. Considero que agora começa uma nova fase pós-cirurgia, onde meu objetivo é me cuidar e tratar da melhor forma possível para que, depois de 1 ano, o resultado seja excelente e eu tenha feito o meu melhor.</p>
         </section>
@@ -135,8 +143,25 @@
 
         <footer>
             <p><a href="index.html">← Voltar para página inicial</a></p>
-            <p>Última atualização: 11/05/2026 (7 dias pós-op)</p>
+            <p id="ultima-atualizacao">Última atualização: <span id="data-atualizacao"></span></p>
         </footer>
     </div>
+
+    <script>
+        // Data da cirurgia
+        const dataCirurgia = new Date('2026-05-04');
+        const hoje = new Date();
+        
+        // Calcula dias desde a cirurgia
+        const diffTime = Math.abs(hoje - dataCirurgia);
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        
+        // Atualiza contador
+        document.getElementById('contador-dias').textContent = diffDays + ' dias';
+        
+        // Atualiza data de atualização
+        const opcoes = { year: 'numeric', month: '2-digit', day: '2-digit' };
+        document.getElementById('data-atualizacao').textContent = hoje.toLocaleDateString('pt-BR', opcoes);
+    </script>
 </body>
 </html>
