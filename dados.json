@@ -304,6 +304,23 @@
           "legenda": "Lateral esquerda"
         }
       ]
+    },
+    "2026-05-23": {
+      "titulo": "19 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-05-23/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-05-23/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-05-23/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
     }
   }
 }
