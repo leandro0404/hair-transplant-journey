@@ -342,6 +342,27 @@
           "legenda": "Lateral esquerda"
         }
       ]
+    },
+    "2026-05-31": {
+      "titulo": "27 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-05-31/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-05-31/topo.jpg",
+          "legenda": "Vista topo"
+        },
+        {
+          "arquivo": "imagens/2026-05-31/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-05-31/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
     }
   }
 }
