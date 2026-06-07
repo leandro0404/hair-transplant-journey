@@ -363,6 +363,27 @@
           "legenda": "Lateral esquerda"
         }
       ]
+    },
+    "2026-06-07": {
+      "titulo": "34 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-06-07/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-06-07/topo.jpg",
+          "legenda": "Vista topo"
+        },
+        {
+          "arquivo": "imagens/2026-06-07/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-06-07/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
     }
   }
 }
