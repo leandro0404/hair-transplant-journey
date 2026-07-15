@@ -384,6 +384,27 @@
           "legenda": "Lateral esquerda"
         }
       ]
+    },
+    "2026-07-15": {
+      "titulo": "72 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-07-15/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-07-15/topo.jpg",
+          "legenda": "Vista topo"
+        },
+        {
+          "arquivo": "imagens/2026-07-15/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-07-15/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
     }
   }
 }
