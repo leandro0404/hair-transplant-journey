@@ -405,6 +405,27 @@
           "legenda": "Lateral esquerda"
         }
       ]
+    },
+    "2026-08-04": {
+      "titulo": "92 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-07-15/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-08-04/topo.jpg",
+          "legenda": "Vista topo"
+        },
+        {
+          "arquivo": "imagens/2026-08-04/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-08-04/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
     }
   }
 }
