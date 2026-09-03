@@ -426,6 +426,27 @@
           "legenda": "Lateral esquerda"
         }
       ]
+    },
+    "2026-09-03": {
+      "titulo": "122 Dias Pós-Op",
+      "fotos": [
+        {
+          "arquivo": "imagens/2026-09-03/frontal.jpg",
+          "legenda": "Vista frontal"
+        },
+        {
+          "arquivo": "imagens/2026-09-03/topo.jpg",
+          "legenda": "Vista topo"
+        },
+        {
+          "arquivo": "imagens/2026-09-03/lateral-direita.jpg",
+          "legenda": "Lateral direita"
+        },
+        {
+          "arquivo": "imagens/2026-09-03/lateral-esquerda.jpg",
+          "legenda": "Lateral esquerda"
+        }
+      ]
     }
   }
 }
